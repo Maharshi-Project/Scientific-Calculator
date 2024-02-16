@@ -1,0 +1,2 @@
+[localhost]
+maharshi ansible_connection=local
