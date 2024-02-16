@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - name: Pull Docker image from Docker Hub
-      shell: docker pull maharshi369/calculator:latest
+      shell: docker pull maharshi369/latest_calculator:latest
 
     - name: Run Docker container
-      shell: docker run -d -p 8081:8080 maharshi369/calculator:latest
+      shell: docker run -d -p 8081:8080 maharshi369/latest_calculator:latest
