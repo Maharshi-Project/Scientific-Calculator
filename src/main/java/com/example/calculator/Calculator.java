@@ -23,14 +23,16 @@ public class Calculator {
 		return Math.sqrt(a);
 	}
 
-	public long factorial(long a) {
+	public double factorial(long a) {
 		long ans = 1;
-		if (a > 0) {
+		if (a >= 0) {
 			while (a > 0) {
 				ans *= a;
 				a--;
 			}
 		}
+		else
+			return Double.NaN;
 		return ans;
 
 	}
