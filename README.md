@@ -1,2 +1,2 @@
 # Jenkins DevOps Mini Project
-Jenkins DevOps
+Jenkins DevOps with some little features
