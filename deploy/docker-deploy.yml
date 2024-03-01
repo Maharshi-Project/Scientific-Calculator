@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: my_hosts
   tasks:
     - name: Pull Docker image from Docker Hub
       shell: docker pull maharshi369/latest_calculator:latest
