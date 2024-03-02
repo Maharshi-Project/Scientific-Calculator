@@ -1,3 +1,2 @@
 [my_hosts]
 maharshi ansible_connection=local
-172.16.185.41 ansible_user=iiitb ansible_ssh_pass=thanks123
